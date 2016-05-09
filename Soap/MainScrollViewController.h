@@ -1,0 +1,16 @@
+//
+//  MainScrollViewController.h
+//  Soap
+//
+//  Created by Wang on 12/26/14.
+//  Copyright (c) 2014 wang. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MainScrollViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIView *subView;
+
+- (IBAction)itemTapped:(id)sender;
+@end
